@@ -16,6 +16,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 3rem;
+    background-color: #fff;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
@@ -76,12 +77,10 @@ header button:hover {
     transition: 0.2s ease;
 }
 
-
 footer {
-    background-color: #0071c22a;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
-    border-top: 3px solid rgb(174, 174, 174);
     flex-direction: column;
     padding-bottom: 1.5rem;
     font-size: 1.6rem;
