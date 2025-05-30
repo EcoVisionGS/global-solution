@@ -2,32 +2,62 @@ body {
     background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 99%), url('../img/fundo-de-agua.jpg') no-repeat 0 60px / cover;
 }
 
-main div {
-    margin: 6% 10%;
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 11%;
+}
+
+.escrita-main {
     padding: 7rem 1rem 5rem 1rem;
+    width: 50%;
+}
+
+.img-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 5rem;
+}
+
+.img-main img {
+    width: 45rem;
 }
 
 main div h1 {
-    color: #004170;
-    font-size: 3rem;
+    background: linear-gradient(to bottom, #0071C2, #209BEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 4rem;
 }
 
 main div p {
-   color:#0069b4;
-   font-size: 1.7rem;
-   font-weight: bold;
-   margin: 3rem 0 2.5rem;
-   width: 40%;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px black;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 3rem 0 3rem;
 }
 
 main div button {
     border: none;
-    padding: 1rem;
+    padding: 1.7rem;
     border-radius: 2rem;
-    background-color: #0069b4;
+    background-color: #209BEB;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 2rem;
     cursor: pointer;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+main div button:hover {
+    background-color: #fff;
+    color: #209BEB;
+    transition: 0.2s ease;
 }
 
 footer {
