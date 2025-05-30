@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 99%), url('../img/fundo-de-agua.jpg') no-repeat 0 60px / cover;
+}
+
+.sobre-gerador, .aplicativo {
+    margin: 9% 11% 10% 11%;
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre-gerador-e, .sobre-app-d {
+    width: 50%;
+}
+
+.titulo-gerador, .titulo-app {
+    font-size: 3rem;
+}
+
+.subtitulo-gerador, .subtitulo-app {
+    margin: 2.2rem 0;
+    font-size: 2rem;
+}
+
+.linha-gerador, .linha-app {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linha-gerador img, .linha-app img {
+    width: 3rem;
+    margin: 1rem 0;
+}
+
+.linha-gerador p, .linha-app p {
+    font-size: 1.7rem;
+    margin: .3rem 0 0 1rem;
+}
+
+.sobre-gerador-d {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sobre-app-e {
+    width: 50%;
+}
+
+
+.sobre-gerador-d img {
+    width: 43rem;
+}
+
+.sobre-app-e img {
+    width: 22rem;
+}
+
+.funcionamento {
+    margin: 5% 12%;
+    text-align: center;
+}
+
+.funcionamento h2 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+}
+
+.container-caixas {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixa {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 22%;
+    padding: 3rem;
+    border-radius: 1.5rem;
+}
+
+.caixa span {
+    background-color: #209BEB;
+    border-radius: 50%;
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.caixa h3 {
+    margin: 3rem 0 2rem 0;
+    font-size: 2.5rem;
+}
+
+.caixa p {
+    font-size: 1.6rem;
+}
+
+footer {
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 95%);
+    margin-top: 10.5rem;
+}
