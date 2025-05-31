@@ -2,37 +2,48 @@ body {
     background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 99%), url('../img/fundo-de-agua.jpg') no-repeat 0 60px / cover;
 }
 
-.sobre-gerador, .aplicativo {
+.sobre-gerador,
+.aplicativo {
     margin: 9% 11% 10% 11%;
     display: flex;
     flex-direction: row;
 }
 
-.sobre-gerador-e, .sobre-app-d {
+.sobre-gerador-e,
+.sobre-app-d {
     width: 50%;
 }
 
-.titulo-gerador, .titulo-app {
+.titulo-gerador,
+.titulo-app {
     font-size: 3rem;
+    background: linear-gradient(to bottom, #0071C2, #209BEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.subtitulo-gerador, .subtitulo-app {
+.subtitulo-gerador,
+.subtitulo-app {
     margin: 2.2rem 0;
     font-size: 2rem;
 }
 
-.linha-gerador, .linha-app {
+.linha-gerador,
+.linha-app {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.linha-gerador img, .linha-app img {
+.linha-gerador img,
+.linha-app img {
     width: 3rem;
     margin: 1rem 0;
 }
 
-.linha-gerador p, .linha-app p {
+.linha-gerador p,
+.linha-app p {
     font-size: 1.7rem;
     margin: .3rem 0 0 1rem;
 }
@@ -65,7 +76,7 @@ body {
 .funcionamento h2 {
     font-size: 3rem;
     color: #fff;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 3px black;
 }
 
 .container-caixas {
@@ -73,6 +84,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 23.5rem;
 }
 
 .caixa {
@@ -83,8 +95,13 @@ body {
     border-radius: 1.5rem;
 }
 
+.caixa:hover {
+    background-color: rgb(210, 232, 250);
+    border: 2px solid black;
+}
+
 .caixa span {
-    background-color: #209BEB;
+    background-color: #64c1ff;
     border-radius: 50%;
     padding: 1.5rem 2rem;
     font-size: 2rem;
@@ -94,7 +111,12 @@ body {
 
 .caixa h3 {
     margin: 3rem 0 2rem 0;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
+    background: linear-gradient(to bottom, #0071C2, #209BEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .caixa p {
