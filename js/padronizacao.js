@@ -11,3 +11,23 @@ document.querySelectorAll('#menu-links a.link-suave').forEach(link => {
         }, 200);
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const botoes = document.querySelectorAll('button[data-href]');
+
+    botoes.forEach(botao => {
+        botao.addEventListener('click', event => {
+            event.preventDefault();
+
+            const destino = botao.getAttribute('data-href');
+
+            if (destino) {
+                document.body.classList.add('fade-out');
+
+                setTimeout(() => {
+                    window.location.href = destino;
+                }, 100);
+            }
+        });
+    });
+});
