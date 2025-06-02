@@ -31,3 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+function abrirMenu() {
+    const menu = document.getElementById("menu-links");
+    menu.classList.toggle("active");
+}
