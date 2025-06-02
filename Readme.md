@@ -21,6 +21,7 @@ AquaRescue é uma resposta rápida e abrangente para situações de desastres na
 
 Abaixo está a estrutura atual do projeto:
 
+```
 /global-solution
 │
 ├── img/                      # Imagens organizadas por seção
@@ -51,7 +52,7 @@ Abaixo está a estrutura atual do projeto:
 ├── integrantes.html          # Página sobre os integrantes
 └── solucao.html              # Página da solução (Gerador de Água Atmosférica e Aplicativo)
 ├── Readme.md                 # Este arquivo README
-
+```
 
 ## 🛠️ Tecnologias Utilizadas
 
