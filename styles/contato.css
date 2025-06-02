@@ -3,7 +3,7 @@ body {
 }
 
 h2 {
-    margin-top: 11.5rem;
+    margin-top: 6.5rem;
     font-size: 3rem;
     text-align: center;
 }
@@ -21,10 +21,16 @@ section p {
 
 .area-entrar-contato {
     flex: 1;
-    background-color: #bfeaff;
     border-radius: .7rem;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0 10%;
+}
+
+.area-entrar-contato h3 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #209BEB;
 }
 
 .campo {
@@ -37,11 +43,6 @@ section p {
     margin-left: .3rem;
     font-size: 1.3rem;
     color: red;
-}
-
-.area-entrar-contato h3 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
 }
 
 .area-entrar-contato input,
