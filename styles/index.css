@@ -64,3 +64,47 @@ footer {
     background: linear-gradient(to top, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 95%);
     margin-top: 10.5rem;
 }
+
+@media (max-width: 731px) {
+    main {
+        flex-direction: column;
+    }
+
+    .escrita-main, .img-main {
+        width: 100%;
+    }
+
+    .escrita-main {
+        text-align: center;
+    }
+
+    .img-main {
+        padding: 0;
+        margin-top: 7rem;
+    }
+
+    .img-main img {
+        width: 40rem;
+        height: 48rem;
+    }
+
+    main div button {
+        margin: 0;
+    }
+
+    .botoes button:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 731px) {
+    .botoes button:nth-of-type(1) {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 791px) {
+    .img-main {
+        margin-top: 2.5rem;
+    }
+}
