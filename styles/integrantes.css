@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 99%), url('../img/fundo-de-agua.jpg') no-repeat 0 60px / cover;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 99%), url('../img/body/fundo-de-agua.jpg') no-repeat 0 60px / cover;
 }
 
 h2 {
