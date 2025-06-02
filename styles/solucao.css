@@ -82,17 +82,16 @@ body {
 .container-caixas {
     margin-top: 5rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 23.5rem;
+    flex-direction: column;
 }
 
 .caixa {
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 22%;
+    width: 100%;
     padding: 3rem;
     border-radius: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .caixa:hover {
@@ -120,10 +119,53 @@ body {
 }
 
 .caixa p {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 footer {
     background: linear-gradient(to top, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 95%);
-    margin-top: 10.5rem;
+}
+
+@media (max-width: 768px) {
+    .sobre-gerador {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre-gerador-e,
+    .sobre-app-d {
+        width: 90%;
+    }
+
+    .sobre-gerador-d img {
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    .aplicativo {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .titulo-app,
+    .subtitulo-app,
+    .titulo-gerador,
+    .subtitulo-gerador {
+        text-align: center;
+    }
+
+    .sobre-app-e {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobre-app-e img {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .sobre-gerador-d img {
+        width: 95%;
+    }
 }
